@@ -1,15 +1,16 @@
-
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Correct FontAwesome CDN -->
+    <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Cairo Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
     <title>تهنئة - شركة الحبابي</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Cairo', sans-serif;
             margin: 0;
             padding: 20px;
             background-color: #f5f5f5;
@@ -17,18 +18,27 @@
             font-size: 18px;
             text-align: center;
         }
-        .container {
-            max-width: 700px;
+        .outer-container {
+            max-width: 800px;
             margin: 0 auto;
+            background: linear-gradient(135deg, #1a73e8 0%, #155abd 100%);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .container {
             background-color: #ffffff;
             padding: 30px;
-            border: 2px solid #1a73e8;
             border-radius: 15px;
+            border: 2px solid #e0e0e0;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
         .logo {
-            margin-bottom: 40px;
+            margin: -30px -30px 40px -30px;
+            padding: 30px;
+            background: #fff;
             border-bottom: 2px solid #1a73e8;
-            padding-bottom: 20px;
+            border-radius: 15px 15px 0 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
         .logo img {
             max-width: 400px;
@@ -38,107 +48,150 @@
             display: block;
         }
         .content {
-            margin-bottom: 30px;
+            margin: 30px auto;
             font-size: 20px;
             line-height: 1.8;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+        .decorative-frame {
+            border: 2px solid #1a73e8;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            position: relative;
+            background: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 100%);
+        }
+        .decorative-frame:before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            border-radius: 15px;
+            background: linear-gradient(45deg, #1a73e8, #4285f4);
+            z-index: -1;
+            padding: 2px;
         }
         h2 {
             color: #1a73e8;
             font-size: 32px;
             margin-bottom: 30px;
+            text-align: center;
+            font-weight: 700;
         }
         .social-links {
-            margin: 40px 0;
-            padding: 20px;
-            border: 2px solid #eee;
-            border-radius: 10px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 15px;
+            background: #f8f9fa;
+            max-width: 600px;
         }
         .social-icon {
             display: inline-block;
-            margin: 10px 20px;
+            margin: 15px 25px;
             text-decoration: none;
             color: #1a73e8;
-            font-size: 40px; /* Increased icon size */
+            font-size: 45px;
+            position: relative;
+            transition: all 0.3s ease;
         }
         .social-icon:hover {
             color: #155abd;
-            transform: scale(1.1);
-            transition: all 0.3s ease;
+            transform: translateY(-5px);
         }
         .social-icon i {
             margin-bottom: 10px;
+            background: -webkit-linear-gradient(45deg, #1a73e8, #4285f4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .social-icon span {
             display: block;
             font-size: 16px;
             margin-top: 5px;
             color: #333;
+            font-weight: 600;
         }
         .footer {
             margin-top: 40px;
             padding-top: 20px;
             border-top: 2px solid #1a73e8;
             font-size: 18px;
+            background: #f8f9fa;
+            border-radius: 0 0 15px 15px;
+            text-align: center;
         }
         .button {
             display: inline-block;
-            padding: 15px 30px;
-            background-color: #1a73e8;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #1a73e8, #4285f4);
             color: white;
             text-decoration: none;
-            border-radius: 8px;
+            border-radius: 50px;
             margin: 20px 0;
             font-size: 20px;
             font-weight: bold;
+            box-shadow: 0 4px 15px rgba(26,115,232,0.2);
+            transition: all 0.3s ease;
         }
         .button:hover {
-            background-color: #155abd;
             transform: translateY(-2px);
-            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(26,115,232,0.3);
         }
         p {
             margin-bottom: 20px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="https://kamalalhababi.com/wp-content/uploads/2024/07/%D8%B4%D8%B9%D8%A7%D8%B1-%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%AD%D8%A8%D8%A7%D8%A8%D9%8A-%D8%A8%D8%B2%D9%86%D8%B3-%D8%B4%D9%81%D8%A7%D9%81-2-2048x970.png" 
-                 alt="شعار شركة الحبابي بزنس">
-        </div>
-        
-        <div class="content">
-            <h2>تهانينا! 🎉</h2>
-            <p>تبارك لك شركة الحبابي حصولك على شهادة في دورة استراتيجيات العمل الحر عبر الانترنت والذكاء الاصطناعي</p>
-            <p>ونتمنى أن تكون قد استفدت من هذه الورشة وأن نكون قد وضعناك على بداية الطريق</p>
-            
-            <p>يسعدنا أن تشارك رأيك في الورشة عبر التعليق على المنشور</p>
-            <div>
-                <a href="https://www.instagram.com/p/C95ap6jMlFj/" class="button">شارك رأيك</a>
+    <div class="outer-container">
+        <div class="container">
+            <div class="logo">
+                <img src="https://kamalalhababi.com/wp-content/uploads/2024/07/%D8%B4%D8%B9%D8%A7%D8%B1-%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%AD%D8%A8%D8%A7%D8%A8%D9%8A-%D8%A8%D8%B2%D9%86%D8%B3-%D8%B4%D9%81%D8%A7%D9%81-2-2048x970.png" 
+                     alt="شعار شركة الحبابي بزنس">
             </div>
-        </div>
+            
+            <div class="content">
+                <div class="decorative-frame">
+                    <h2>تهانينا! 🎉</h2>
+                    <p>تبارك لك شركة الحبابي حصولك على شهادة في دورة استراتيجيات العمل الحر عبر الانترنت والذكاء الاصطناعي</p>
+                    <p>ونتمنى أن تكون قد استفدت من هذه الورشة وأن نكون قد وضعناك على بداية الطريق</p>
+                </div>
+                
+                <p>يسعدنا أن تشارك رأيك في الورشة عبر التعليق على المنشور</p>
+                <div>
+                    <a href="https://www.instagram.com/p/C95ap6jMlFj/" class="button">شارك رأيك</a>
+                </div>
+            </div>
 
-        <div class="social-links">
-            <p style="font-size: 22px; font-weight: bold;">تابعنا على وسائل التواصل الاجتماعي للبقاء على إطلاع بكل جديد:</p>
-            <a href="https://www.instagram.com/eng.kamal.alhababi" class="social-icon">
-                <i class="fab fa-instagram"></i>
-                <span>انستجرام</span>
-            </a>
-            <a href="https://www.facebook.com/eng.kamal.alhababi" class="social-icon">
-                <i class="fab fa-facebook"></i>
-                <span>فيسبوك</span>
-            </a>
-            <a href="https://kamalalhababi.com" class="social-icon">
-                <i class="fas fa-globe"></i>
-                <span>الموقع</span>
-            </a>
-        </div>
+            <div class="social-links">
+                <p style="font-size: 22px; font-weight: bold;">تابعنا على وسائل التواصل الاجتماعي للبقاء على إطلاع بكل جديد:</p>
+                <a href="https://www.instagram.com/eng.kamal.alhababi" class="social-icon">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <span>انستجرام</span>
+                </a>
+                <a href="https://www.facebook.com/eng.kamal.alhababi" class="social-icon">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <span>فيسبوك</span>
+                </a>
+                <a href="https://kamalalhababi.com" class="social-icon">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <span>الموقع</span>
+                </a>
+            </div>
 
-        <div class="footer">
-            <p>في حال وجود أي استفسار أو ملاحظة، لا تتردد في التواصل معنا على هذا البريد الإلكتروني</p>
-            <p style="font-weight: bold;">مع أطيب التحيات،<br>
-            فريق الحبابي بزنس للخدمات الإلكترونية وريادة الأعمال - المملكة المتحدة</p>
+            <div class="footer">
+                <div class="decorative-frame">
+                    <p>في حال وجود أي استفسار أو ملاحظة، لا تتردد في التواصل معنا على هذا البريد الإلكتروني</p>
+                    <p style="font-weight: bold;">مع أطيب التحيات،<br>
+                    فريق الحبابي بزنس للخدمات الإلكترونية وريادة الأعمال - المملكة المتحدة</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
