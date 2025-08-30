@@ -3,205 +3,396 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="format-detection" content="telephone=no" />
     <title>تهنئة - شركة الحبابي</title>
+    <!--[if mso]>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]-->
     <style type="text/css">
-        /* Gmail-specific fixes */
+        /* Client-specific Styles */
+        #outlook a {padding:0;}
         .ReadMsgBody {width: 100%;}
         .ExternalClass {width: 100%;}
         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
-        body {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0;}
-        table {border-collapse: collapse !important;}
-        .force-row, .force-col {display: block !important; width: 100% !important; clear: both !important;}
-        .force-col {padding-right: 0px !important; padding-left: 0px !important;}
         
-        /* Social media buttons */
-        .social-btn {
-            display: inline-block !important;
-            margin: 0 5px !important;
-            padding: 8px 12px !important;
-            background-color: #1a73e8 !important;
-            color: #ffffff !important;
-            text-decoration: none !important;
-            border-radius: 4px !important;
-            font-size: 14px !important;
-            font-weight: bold !important;
-            border: 2px solid #1a73e8 !important;
-        }
+        /* Remove WebKit/Blink autolinking */
+        a[x-apple-data-detectors] {color: inherit !important; text-decoration: inherit !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
         
-        .social-btn:hover {
-            background-color: #1557b0 !important;
-            border-color: #1557b0 !important;
-        }
+        /* iOS Blue Links */
+        .appleFooter a {color: #999999 !important; text-decoration: none !important;}
+        .appleBody a {color: #1a73e8 !important; text-decoration: none !important;}
         
-        .instagram-btn {
-            background-color: #E4405F !important;
-            border-color: #E4405F !important;
-        }
+        /* Android Auto Link Fix */
+        .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font {line-height: 100%;}
         
-        .instagram-btn:hover {
-            background-color: #d31545 !important;
-            border-color: #d31545 !important;
-        }
+        /* General Reset */
+        body, table, td, p, a, li, blockquote {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+        table, td {mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        img {-ms-interpolation-mode: bicubic; border: 0; display: block; outline: none; text-decoration: none;}
         
-        .facebook-btn {
-            background-color: #1877F2 !important;
-            border-color: #1877F2 !important;
-        }
+        /* Prevent auto-scaling in iOS 10+ Mail */
+        body {margin: 0 !important; padding: 0 !important; width: 100% !important; height: 100% !important;}
         
-        .facebook-btn:hover {
-            background-color: #166fe5 !important;
-            border-color: #166fe5 !important;
-        }
+        /* Force Hotmail to display emails at full width */
+        .ExternalClass {width: 100%;}
         
-        .website-btn {
-            background-color: #28a745 !important;
-            border-color: #28a745 !important;
-        }
+        /* Force Hotmail to display normal line spacing */
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
         
-        .website-btn:hover {
-            background-color: #218838 !important;
-            border-color: #218838 !important;
-        }
+        /* Prevent Webkit and Windows Mobile platforms from changing declared text sizes */
+        body, table, td, p, a, li, blockquote {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         
-        /* Mobile responsive */
+        /* Remove extra space added to tables and cells in Outlook */
+        table, td {mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        
+        /* Allow smoother rendering of resized image in Internet Explorer */
+        img {-ms-interpolation-mode: bicubic;}
+        
+        /* Remove blue links for iOS devices */
+        a[x-apple-data-detectors] {text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; color: inherit !important;}
+        
+        /* Gmail/Inbox/Android fix */
+        div[style*="margin: 16px 0;"] {margin: 0 !important;}
+        
+        /* Mobile Styles */
         @media only screen and (max-width: 600px) {
             .main-table {
-                width: 100% !important;
-                margin: 0 10px !important;
+                width: 95% !important;
+                margin: 0 auto !important;
             }
+            
             .content-td {
-                padding: 20px !important;
+                padding: 15px !important;
             }
-            .social-btn {
-                display: block !important;
-                margin: 5px 0 !important;
+            
+            .mobile-center {
                 text-align: center !important;
+            }
+            
+            .mobile-padding {
+                padding: 10px !important;
+            }
+            
+            .social-container {
+                width: 100% !important;
+            }
+            
+            .social-button {
+                display: block !important;
+                width: 80% !important;
+                margin: 8px auto !important;
+                padding: 12px 20px !important;
+                text-align: center !important;
+                box-sizing: border-box !important;
+            }
+            
+            .logo-img {
+                max-width: 250px !important;
+                width: 90% !important;
+            }
+            
+            .main-title {
+                font-size: 24px !important;
+                padding-bottom: 15px !important;
+            }
+            
+            .content-text {
+                font-size: 16px !important;
+                line-height: 1.5 !important;
+            }
+            
+            .button-text {
+                font-size: 16px !important;
+            }
+            
+            .footer-text {
+                font-size: 14px !important;
+            }
+            
+            .spacer-mobile {
+                height: 15px !important;
+            }
+        }
+        
+        /* Extra small mobile devices */
+        @media only screen and (max-width: 480px) {
+            .main-table {
+                width: 100% !important;
+                margin: 0 5px !important;
+            }
+            
+            .content-td {
+                padding: 10px !important;
+            }
+            
+            .social-button {
+                width: 90% !important;
+                font-size: 14px !important;
+            }
+        }
+        
+        /* Dark mode styles for better compatibility */
+        @media (prefers-color-scheme: dark) {
+            .dark-bg {
+                background-color: #1f1f1f !important;
+            }
+            .dark-text {
+                color: #ffffff !important;
             }
         }
     </style>
 </head>
-<body style="margin: 0; padding: 0; background-color: #f6f6f6; font-family: 'Segoe UI', Tahoma, Arial, sans-serif; direction: rtl;">
-    <!-- Main Table -->
-    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f6f6f6; direction: rtl;">
+<body style="margin: 0; padding: 0; background-color: #f6f6f6; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif; direction: rtl; width: 100%; height: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+    <!-- Outlook Fix -->
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f6f6f6;">
+    <tr>
+    <td>
+    <![endif]-->
+    
+    <!-- Main Wrapper Table -->
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f6f6f6; direction: rtl; margin: 0; padding: 0; width: 100%; height: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
         <tr>
-            <td align="center" style="padding: 20px 0;">
+            <td align="center" valign="top" style="padding: 20px 0;">
+                
                 <!-- Content Table -->
-                <table border="0" cellpadding="0" cellspacing="0" width="600" class="main-table"
-                       style="background-color: #ffffff; border-radius: 8px; border: 1px solid #dddddd; direction: rtl;">
+                <!--[if mso | IE]>
+                <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600px;">
+                <tr>
+                <td>
+                <![endif]-->
+                
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" class="main-table"
+                       style="background-color: #ffffff; border-radius: 8px; border: 1px solid #dddddd; direction: rtl; margin: 0 auto; mso-table-lspace: 0pt; mso-table-rspace: 0pt; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                       
                     <!-- Logo Section -->
                     <tr>
                         <td align="center" style="padding: 30px 0; border-bottom: 2px solid #1a73e8;">
                             <img src="https://kamalalhababi.com/wp-content/uploads/2024/10/Alhababi-Logo-logo-03.png" 
                                  alt="شعار شركة الحبابي بزنس" 
-                                 style="max-width: 300px; width: 100%; height: auto; display: block; margin: 0 auto;" />
+                                 class="logo-img"
+                                 style="max-width: 300px; width: 100%; height: auto; display: block; margin: 0 auto; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
                         </td>
                     </tr>
 
                     <!-- Main Content Section -->
                     <tr>
                         <td style="padding: 30px;" class="content-td">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="direction: rtl;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="direction: rtl; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                
+                                <!-- Title -->
                                 <tr>
-                                    <td style="text-align: center; font-size: 28px; color: #1a73e8; padding-bottom: 20px; font-weight: bold;">
+                                    <td class="main-title mobile-center" style="text-align: center; font-size: 28px; color: #1a73e8; padding-bottom: 20px; font-weight: bold; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                         تهانينا! 🎉
                                     </td>
                                 </tr>
+                                
+                                <!-- Main Message -->
                                 <tr>
                                     <td style="text-align: center; padding: 20px; border: 2px solid #1a73e8; 
-                                               border-radius: 8px; background-color: #f8f9fa;">
-                                        <p style="font-size: 18px; line-height: 1.6; margin: 0 0 20px 0; color: #333; text-align: right;">
+                                               border-radius: 8px; background-color: #f8f9fa;" class="mobile-padding">
+                                        <p class="content-text" style="font-size: 18px; line-height: 1.6; margin: 0 0 20px 0; color: #333; text-align: right; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             تبارك لك شركة الحبابي حصولك على شهادة في دورة استراتيجيات العمل الحر عبر الانترنت والذكاء الاصطناعي
                                         </p>
-                                        <p style="font-size: 18px; line-height: 1.6; margin: 0; color: #333; text-align: right;">
+                                        <p class="content-text" style="font-size: 18px; line-height: 1.6; margin: 0; color: #333; text-align: right; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             ونتمنى أن تكون قد استفدت من هذه الورشة وأن نكون قد وضعناك على بداية الطريق
                                         </p>
                                     </td>
                                 </tr>
 
+                                <!-- Spacer -->
+                                <tr>
+                                    <td class="spacer-mobile" style="height: 30px; line-height: 1px; font-size: 1px;">&nbsp;</td>
+                                </tr>
+
                                 <!-- Share Opinion Section -->
                                 <tr>
-                                    <td style="padding: 30px 0; text-align: center;">
-                                        <p style="font-size: 18px; margin-bottom: 20px; color: #333; text-align: right;">
+                                    <td style="padding: 0; text-align: center;">
+                                        <p class="content-text" style="font-size: 18px; margin-bottom: 20px; color: #333; text-align: right; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             يسعدنا أن تشارك رأيك في الورشة عبر التعليق على المنشور
                                         </p>
+                                        
+                                        <!--[if mso]>
+                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.instagram.com/p/C95ap6jMlFj/" style="height:44px;v-text-anchor:middle;width:200px;" arcsize="11%" stroke="f" fillcolor="#1a73e8">
+                                        <w:anchorlock/>
+                                        <center style="color:#ffffff;font-family:'Segoe UI', Tahoma, Arial, sans-serif;font-size:16px;font-weight:bold;">شارك رأيك</center>
+                                        </v:roundrect>
+                                        <![endif]-->
+                                        <!--[if !mso]><!-->
                                         <a href="https://www.instagram.com/p/C95ap6jMlFj/" 
+                                           class="button-text social-button"
                                            style="background-color: #1a73e8; color: #ffffff !important; padding: 12px 25px; 
-                                                  text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold; font-size: 16px;">
+                                                  text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold; 
+                                                  font-size: 16px; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif; border: none;
+                                                  mso-hide: all;">
                                             شارك رأيك
                                         </a>
+                                        <!--<![endif]-->
                                     </td>
+                                </tr>
+
+                                <!-- Spacer -->
+                                <tr>
+                                    <td class="spacer-mobile" style="height: 30px; line-height: 1px; font-size: 1px;">&nbsp;</td>
                                 </tr>
 
                                 <!-- Certificate Note -->
                                 <tr>
-                                    <td style="text-align: center; padding: 20px; background-color: #fff3cd; border-radius: 8px; border: 1px solid #ffeaa7;">
-                                        <p style="font-size: 16px; margin: 0; color: #856404; text-align: right; line-height: 1.5;">
+                                    <td style="text-align: center; padding: 20px; background-color: #fff3cd; border-radius: 8px; border: 1px solid #ffeaa7;" class="mobile-padding">
+                                        <p class="content-text" style="font-size: 16px; margin: 0; color: #856404; text-align: right; line-height: 1.5; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             <strong>🔴 ملاحظة هامة:</strong> شهادتك مرفقة كملف في نهاية هذا البريد الإلكتروني. نأمل أن تقوم بتحميلها بكل سهولة.
                                         </p>
                                     </td>
                                 </tr>
 
+                                <!-- Spacer -->
+                                <tr>
+                                    <td class="spacer-mobile" style="height: 30px; line-height: 1px; font-size: 1px;">&nbsp;</td>
+                                </tr>
+
                                 <!-- Social Media Section -->
                                 <tr>
-                                    <td style="padding: 30px 0;">
-                                        <p style="font-size: 18px; margin-bottom: 20px; color: #333; text-align: right;">
+                                    <td style="padding: 0;">
+                                        <p class="content-text" style="font-size: 18px; margin-bottom: 20px; color: #333; text-align: right; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             يشرفنا متابعتك لنا على صفحاتنا عبر وسائل التواصل الاجتماعي للبقاء على إطلاع بكل جديد:
                                         </p>
                                         
-                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <!-- Social Buttons Container -->
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" class="social-container" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                             <tr>
                                                 <td align="center" style="padding: 10px 0;">
-                                                    <table border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
-                                                        <tr>
-                                                            <td style="padding: 0 5px;">
-                                                                <a href="https://www.instagram.com/eng.kamal.alhababi" 
-                                                                   class="social-btn instagram-btn"
-                                                                   style="display: inline-block; margin: 0 5px; padding: 8px 12px; background-color: #E4405F !important; color: #ffffff !important; text-decoration: none; border-radius: 4px; font-size: 14px; font-weight: bold; border: 2px solid #E4405F;">
-                                                                    📷 Instagram
-                                                                </a>
-                                                            </td>
-                                                            <td style="padding: 0 5px;">
-                                                                <a href="https://www.facebook.com/eng.kamal.alhababi" 
-                                                                   class="social-btn facebook-btn"
-                                                                   style="display: inline-block; margin: 0 5px; padding: 8px 12px; background-color: #1877F2 !important; color: #ffffff !important; text-decoration: none; border-radius: 4px; font-size: 14px; font-weight: bold; border: 2px solid #1877F2;">
-                                                                    👥 Facebook
-                                                                </a>
-                                                            </td>
-                                                            <td style="padding: 0 5px;">
-                                                                <a href="https://kamalalhababi.com" 
-                                                                   class="social-btn website-btn"
-                                                                   style="display: inline-block; margin: 0 5px; padding: 8px 12px; background-color: #28a745 !important; color: #ffffff !important; text-decoration: none; border-radius: 4px; font-size: 14px; font-weight: bold; border: 2px solid #28a745;">
-                                                                    🌐 الموقع الإلكتروني
-                                                                </a>
-                                                            </td>
-                                                        </tr>
+                                                    
+                                                    <!--[if mso | IE]>
+                                                    <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                    <td style="padding: 0 5px;">
+                                                    <![endif]-->
+                                                    
+                                                    <!-- Instagram Button -->
+                                                    <!--[if mso]>
+                                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.instagram.com/eng.kamal.alhababi" style="height:40px;v-text-anchor:middle;width:140px;" arcsize="10%" stroke="f" fillcolor="#E4405F">
+                                                    <w:anchorlock/>
+                                                    <center style="color:#ffffff;font-family:'Segoe UI', Tahoma, Arial, sans-serif;font-size:14px;font-weight:bold;">📷 Instagram</center>
+                                                    </v:roundrect>
+                                                    <![endif]-->
+                                                    <!--[if !mso]><!-->
+                                                    <a href="https://www.instagram.com/eng.kamal.alhababi" 
+                                                       class="social-button"
+                                                       style="display: inline-block; margin: 0 5px; padding: 8px 12px; background-color: #E4405F !important; 
+                                                              color: #ffffff !important; text-decoration: none; border-radius: 4px; font-size: 14px; 
+                                                              font-weight: bold; border: 2px solid #E4405F; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+                                                              mso-hide: all;">
+                                                        📷 Instagram
+                                                    </a>
+                                                    <!--<![endif]-->
+                                                    
+                                                    <!--[if mso | IE]>
+                                                    </td>
+                                                    <td style="padding: 0 5px;">
+                                                    <![endif]-->
+                                                    
+                                                    <!-- Facebook Button -->
+                                                    <!--[if mso]>
+                                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.facebook.com/eng.kamal.alhababi" style="height:40px;v-text-anchor:middle;width:140px;" arcsize="10%" stroke="f" fillcolor="#1877F2">
+                                                    <w:anchorlock/>
+                                                    <center style="color:#ffffff;font-family:'Segoe UI', Tahoma, Arial, sans-serif;font-size:14px;font-weight:bold;">👥 Facebook</center>
+                                                    </v:roundrect>
+                                                    <![endif]-->
+                                                    <!--[if !mso]><!-->
+                                                    <a href="https://www.facebook.com/eng.kamal.alhababi" 
+                                                       class="social-button"
+                                                       style="display: inline-block; margin: 0 5px; padding: 8px 12px; background-color: #1877F2 !important; 
+                                                              color: #ffffff !important; text-decoration: none; border-radius: 4px; font-size: 14px; 
+                                                              font-weight: bold; border: 2px solid #1877F2; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+                                                              mso-hide: all;">
+                                                        👥 Facebook
+                                                    </a>
+                                                    <!--<![endif]-->
+                                                    
+                                                    <!--[if mso | IE]>
+                                                    </td>
+                                                    <td style="padding: 0 5px;">
+                                                    <![endif]-->
+                                                    
+                                                    <!-- Website Button -->
+                                                    <!--[if mso]>
+                                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://kamalalhababi.com" style="height:40px;v-text-anchor:middle;width:160px;" arcsize="10%" stroke="f" fillcolor="#28a745">
+                                                    <w:anchorlock/>
+                                                    <center style="color:#ffffff;font-family:'Segoe UI', Tahoma, Arial, sans-serif;font-size:14px;font-weight:bold;">🌐 الموقع الإلكتروني</center>
+                                                    </v:roundrect>
+                                                    <![endif]-->
+                                                    <!--[if !mso]><!-->
+                                                    <a href="https://kamalalhababi.com" 
+                                                       class="social-button"
+                                                       style="display: inline-block; margin: 0 5px; padding: 8px 12px; background-color: #28a745 !important; 
+                                                              color: #ffffff !important; text-decoration: none; border-radius: 4px; font-size: 14px; 
+                                                              font-weight: bold; border: 2px solid #28a745; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+                                                              mso-hide: all;">
+                                                        🌐 الموقع الإلكتروني
+                                                    </a>
+                                                    <!--<![endif]-->
+                                                    
+                                                    <!--[if mso | IE]>
+                                                    </td>
+                                                    </tr>
                                                     </table>
+                                                    <![endif]-->
+                                                    
                                                 </td>
                                             </tr>
                                         </table>
                                     </td>
                                 </tr>
 
+                                <!-- Spacer -->
+                                <tr>
+                                    <td class="spacer-mobile" style="height: 30px; line-height: 1px; font-size: 1px;">&nbsp;</td>
+                                </tr>
+
                                 <!-- WhatsApp Contact -->
                                 <tr>
-                                    <td style="text-align: center; padding: 20px; background-color: #e8f5e9; border-radius: 8px; border: 1px solid #c3e6cb;">
-                                        <p style="font-size: 16px; margin: 0 0 15px 0; color: #155724; text-align: right; line-height: 1.5;">
+                                    <td style="text-align: center; padding: 20px; background-color: #e8f5e9; border-radius: 8px; border: 1px solid #c3e6cb;" class="mobile-padding">
+                                        <p class="content-text" style="font-size: 16px; margin: 0 0 15px 0; color: #155724; text-align: right; line-height: 1.5; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             في حال وجود أي استفسار أو ملاحظة، لا تتردد في التواصل معنا على واتساب:
                                         </p>
-                                        <a href="https://wa.me/+601120708560‬" 
+                                        
+                                        <!--[if mso]>
+                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://wa.me/+601120708560" style="height:44px;v-text-anchor:middle;width:250px;" arcsize="11%" stroke="f" fillcolor="#25D366">
+                                        <w:anchorlock/>
+                                        <center style="color:#ffffff;font-family:'Segoe UI', Tahoma, Arial, sans-serif;font-size:16px;font-weight:bold;">💬 تواصل معنا على واتساب</center>
+                                        </v:roundrect>
+                                        <![endif]-->
+                                        <!--[if !mso]><!-->
+                                        <a href="https://wa.me/+601120708560" 
+                                           class="button-text social-button"
                                            style="background-color: #25D366 !important; color: #ffffff !important; padding: 12px 20px; 
-                                                  text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold; font-size: 16px; border: 2px solid #25D366;">
+                                                  text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold; 
+                                                  font-size: 16px; border: 2px solid #25D366; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+                                                  mso-hide: all;">
                                             💬 تواصل معنا على واتساب
                                         </a>
+                                        <!--<![endif]-->
                                     </td>
                                 </tr>
 
                                 <!-- Spacer -->
                                 <tr>
+                                    <td style="height: 20px; line-height: 1px; font-size: 1px;">&nbsp;</td>
+                                </tr>
+
+                                <!-- Divider -->
+                                <tr>
                                     <td style="padding: 20px 0;">
-                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                             <tr>
-                                                <td style="border-top: 1px solid #dddddd;"></td>
+                                                <td style="border-top: 1px solid #dddddd; height: 1px; line-height: 1px; font-size: 1px;">&nbsp;</td>
                                             </tr>
                                         </table>
                                     </td>
@@ -209,15 +400,15 @@
 
                                 <!-- Footer -->
                                 <tr>
-                                    <td style="text-align: center; padding: 20px 0;">
-                                        <p style="font-size: 16px; margin: 0 0 10px 0; color: #333; font-weight: bold;">
+                                    <td style="text-align: center; padding: 20px 0;" class="mobile-center">
+                                        <p class="footer-text" style="font-size: 16px; margin: 0 0 10px 0; color: #333; font-weight: bold; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             مع أطيب التحيات،
                                         </p>
-                                        <p style="font-size: 16px; margin: 0 0 15px 0; color: #666; line-height: 1.4;">
+                                        <p class="footer-text" style="font-size: 16px; margin: 0 0 15px 0; color: #666; line-height: 1.4; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             فريق الحبابي بزنس للخدمات الإلكترونية وريادة الأعمال - المملكة المتحدة
                                         </p>
-                                        <a href="https://kamalalhababi.com/" 
-                                           style="color: #1a73e8 !important; text-decoration: none; font-weight: bold; font-size: 16px;">
+                                        <a href="https://kamalalhababi.com/" class="appleBody"
+                                           style="color: #1a73e8 !important; text-decoration: none; font-weight: bold; font-size: 16px; font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;">
                                             kamalalhababi.com
                                         </a>
                                     </td>
@@ -226,8 +417,21 @@
                         </td>
                     </tr>
                 </table>
+                
+                <!--[if mso | IE]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+                
             </td>
         </tr>
     </table>
+    
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
 </body>
 </html>
